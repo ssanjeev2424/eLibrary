@@ -1,0 +1,80 @@
+.sign-in-form {
+    margin: 30px;
+    color: #fff;
+    max-width: 350px;
+    text-align: center;
+    background-color: #141c3a;
+    border-bottom: 5px double gray;
+    border-left: 5px double gold;
+ 	border-right: 5px double gold;
+    border-top: 5px double gray;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.sign-in-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    background: linear-gradient(90deg,#141c3a 20px,transparent 1%) 50%,linear-gradient(#141c3a 20px,transparent 1%) 50%,#ffc740;
+    background-size: 22px 22px;
+}
+
+.sign-in input {
+    background: rgba(255,255,255,0.9);
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #333;
+    width: 215px;
+    height: 22px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.3);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .sign-in {
+      font-size: 18px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .sign-in-form h1 {
+      font-size: 30px;
+      font-weight: 900;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .sign-in-form p {
+      font-size: 20px;
+      font-family: cursive;
+  }
+
+  .btn-medium {
+    color: #020e07 !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #20bf6b !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    }
+    
+    .btn-medium:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background: gold;
+    }

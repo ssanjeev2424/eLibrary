@@ -1,0 +1,22 @@
+.Button {
+    background: rgb(209, 103, 103);
+    color: rgb(5, 5, 5);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.tHeading {
+    font-weight: bold;
+    border: 2px solid black;
+}
+.tRow {
+    border: 1px solid black;
+}
+
+.border {
+    border: 4px double black;
+}
+
+.cursor {
+    cursor: pointer;
+}
